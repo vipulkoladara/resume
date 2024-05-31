@@ -1,0 +1,120 @@
+.About {
+    font-size: xxx-large;
+    font-weight: 1000;
+    color: #a6bbcc;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+.about-main{
+
+    background-color: #221f1f;
+
+}
+
+.about-section-main {
+    height: 50vh;
+    width: 60vw;
+    margin: auto;
+
+}
+
+.about-section-2 {
+    margin: auto;
+    height: 20vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-section-2-bottom{
+    margin: auto;
+    height: 10vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-element-head{
+
+    font-size: x-large;
+font-weight: 600;
+}
+
+.about-element-desc{
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+
+
+    .about-section-main {
+        height: 50vh;
+        width: 60vw;
+        margin: auto;
+    
+    }
+    .about-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .about-section-2 {
+        margin: auto;
+        height: 20vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     gap: 200px;
+        
+    }
+    
+    .about-section-2-bottom{
+        margin: auto;
+        height: 10vh;
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+    .About {
+        font-size: xx-large;
+        font-weight: 1000;
+        color: #a6bbcc;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .about-element-head{
+
+        font-size: large;
+    font-weight: 400;
+    }
+    
+    .about-element-desc{
+        text-decoration: underline;
+        font-size: small;
+    font-weight: 200;
+    }
+    .about-section-2-top{
+        font-size: small;
+    font-weight: 200;
+    }
+}

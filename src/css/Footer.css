@@ -1,0 +1,24 @@
+.footer-main{
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    background-color: #221f1f;
+
+}
+
+.footer-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer-main-right{
+    display: flex;
+}
+
+.footer-main-right img{
+    height: 50px;
+    margin-left: 10px;
+}
